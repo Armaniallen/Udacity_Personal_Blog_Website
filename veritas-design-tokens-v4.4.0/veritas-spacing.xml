@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="vds_spacing_none">0dp</dimen>
+  <dimen name="vds_spacing_half">4dp</dimen>
+  <dimen name="vds_spacing_1x">8dp</dimen>
+  <dimen name="vds_spacing_2x">16dp</dimen>
+  <dimen name="vds_spacing_3x">24dp</dimen>
+  <dimen name="vds_spacing_4x">32dp</dimen>
+  <dimen name="vds_spacing_6x">48dp</dimen>
+  <dimen name="vds_spacing_inline_half">0 0.25rem 0 0</dimen>
+  <dimen name="vds_spacing_inline_1x">0 0.5rem 0 0</dimen>
+  <dimen name="vds_spacing_inline_2x">0 1rem 0 0</dimen>
+  <dimen name="vds_spacing_inline_3x">0 1.5rem 0 0</dimen>
+  <dimen name="vds_spacing_inline_4x">0 2rem 0 0</dimen>
+  <dimen name="vds_spacing_inline_6x">0 3rem 0 0</dimen>
+  <dimen name="vds_spacing_inset_half">4</dimen>
+  <dimen name="vds_spacing_inset_1x">8</dimen>
+  <dimen name="vds_spacing_inset_2x">16</dimen>
+  <dimen name="vds_spacing_inset_3x">24</dimen>
+  <dimen name="vds_spacing_inset_4x">32</dimen>
+  <dimen name="vds_spacing_inset_6x">48</dimen>
+  <dimen name="vds_spacing_stack_half">0 0 0.25rem 0</dimen>
+  <dimen name="vds_spacing_stack_1x">0 0 0.5rem 0</dimen>
+  <dimen name="vds_spacing_stack_2x">0 0 1rem 0</dimen>
+  <dimen name="vds_spacing_stack_3x">0 0 1.5rem 0</dimen>
+  <dimen name="vds_spacing_stack_4x">0 0 2rem 0</dimen>
+  <dimen name="vds_spacing_stack_6x">0 0 3rem 0</dimen>
+</resources>

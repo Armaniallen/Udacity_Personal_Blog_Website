@@ -1,0 +1,50 @@
+* 
+
+  {
+  Margin: 0;
+  Padding: 0;
+  box-sizing: border-box;
+  }
+
+
+  html,
+body {
+    background-color:-;
+    color: -;
+    font-family: -;
+    font-size: -;
+    font-weight: -;
+    text-rendering: optimizeLegibility;
+    overflow-x: -;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 900px 100px;
+  grid-template-rows: 175px 600px 200px;
+  grid-gap: 0px 0px;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main main feat feat"
+    "ft ft ft ft ft ft ft ft";
+}
+
+.header {
+    grid-area: hd;
+    border: 5px solid red;
+}
+
+.content {
+    grid-area: main;
+    border: 5px solid red;
+}
+
+.side {
+     grid-area: feat;
+     border: 5px solid red;
+}
+
+.footer {
+     grid-area: ft;
+     border: 5px solid red;
+}

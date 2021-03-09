@@ -23,37 +23,41 @@ body {
 /*webpage*/
 
 .container {
+    margin-left: 10%;
     display: grid;
-    width: 95%;
+    width: 80%;
     height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr 1fr;
     grid-gap: 0px 0px;
+/*
     grid-template-areas:
-    "header"
-    "section"
-    "footer";
+    "top top top top top top top top"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft"; 
+*/
     border: 2px solid orange;
     justify-content: -;
     
           }
 
-
-
 .header {
-    grid-area: header;
+/*    grid-area: top;*/
     display: block;
     background: green;
 }
 
 .section {
-    grid-area: section;
+/*    grid-area: main;*/
     display: block;
-    background: red;
+    background: #fcfded;
+    
+    display: flex;
+    flex-direction: 
 }
 
 .footer {
-    grid-area: footer;
+/*    grid-area: ft;*/
     display: block;
     background: yellow;
 }

@@ -23,10 +23,10 @@ body {
 /*webpage*/
 
 .container {
-    margin-left: 10%;
+    margin-left: 25%;
     display: grid;
-    width: 80%;
-    height: 100vh;
+    width: 50%;
+    height: 120vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr 1fr;
     grid-gap: 0px 0px;
@@ -37,37 +37,135 @@ body {
     "ft ft ft ft ft ft ft ft"; 
 */
     border: 2px solid orange;
-    justify-content: -;
+
     
           }
 
 .header {
 /*    grid-area: top;*/
     display: block;
-    background: green;
+    background: lightblue;
+  
+}
+
+.header p {
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 22px;
+    width: 33.3%%;
+    border: 1px dotted black;
+}
+
+.search-icon{
+    float: right;
+    margin-right: 5%;
+    width: 33.3%%;
+    border: 1px dotted black;
+}
+
+.header h2{
+   margin-left: 35%;
+   margin-top: 5%;
+    width: 33.3%%;
+    border: 1px dotted black;
 }
 
 .section {
 /*    grid-area: main;*/
     display: block;
     background: #fcfded;
+
     
     display: flex;
-    flex-direction: 
+    flex-direction:row;
+    flex-wrap:wrap; 
+    
+    
+}
+
+.blog-post {
+    width: 45%;
+    border: 5px solid black;
+    margin: 2%;
+    border-radius: 1%;
+    position: relative;
+}
+
+.blog-post_info {
+    max-width: 50%;
+    height: auto;
+    
+}
+
+.blog-post_head {
+    color: lightgreen;
+    margin-bottom: 5%;
+}
+
+.blog-post_title {
+    font-size: ;
+    text-transform: uppercase;
+    color: ;
+    
+  
+}
+
+.blog-post_date {
+    color: lightgrey;
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+
+.blog-post_text {
+    font-size: 18px;
+}
+
+.blog-post_link {
+    display: inline-block;
+    padding: ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:;
+    margin-bottom: 1%;
+    background-image:;
+    border-radius:;
+    background: lightblue;
+    
+}
+
+.blog-post_link:hover {
+  background-image:
+}
+
+.blog-post_img {
+    position: relative;
+    float: right;
+    max-width: 40%;
+    max-height: 100%;
+    border: 1px solid red;
+    
+}
+
+.blog-post_img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 1%;
 }
 
 .footer {
 /*    grid-area: ft;*/
     display: block;
-    background: yellow;
+    background: lightblue;
+    text-align: center;
+   
 }
 
+.footer p {
+    margin-top: 6%;
+}
 
-.bo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-    padding: 15px;
-
-     }

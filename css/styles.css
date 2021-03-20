@@ -41,34 +41,68 @@ body {
     
           }
 
+
+
+
+
 .header {
 /*    grid-area: top;*/
-    display: block;
     background: lightblue;
+    max-height: 20%;
+    
+       display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: normal;
   
 }
 
 .header p {
-    float: left;
-    margin-left: 5%;
-    margin-top: 5%;
+
+
+    margin-left: 2%;
+    
     font-size: 22px;
-    width: 33.3%%;
     border: 1px dotted black;
+
+    
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+    
+   
 }
 
 .search-icon{
-    float: right;
-    margin-right: 5%;
-    width: 33.3%%;
+
+    font-size: 22px;
+    margin-right: 4%;
     border: 1px dotted black;
+    
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .header h2{
-   margin-left: 35%;
-   margin-top: 5%;
-    width: 33.3%%;
-    border: 1px dotted black;
+
+   border: 1px dotted black;
+
+    
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .section {
@@ -84,17 +118,38 @@ body {
     
 }
 
+.parent {
+
+}
+
+
+
 .blog-post {
-    width: 45%;
+    max-width: 45%;
+    max-height: 30%;
     border: 5px solid black;
     margin: 2%;
     border-radius: 1%;
     position: relative;
+    
+     display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0px 0px;
+  grid-template-areas:
+    "a b"
+    "c c";
+}
+
+
+.blog-post_content {
+    grid-area: a;
+   
 }
 
 .blog-post_info {
-    max-width: 50%;
-    height: auto;
+    
+
     
 }
 
@@ -124,15 +179,19 @@ body {
 }
 
 .blog-post_link {
-    display: inline-block;
+    
     padding: ;
     letter-spacing: 1px;
     text-transform: uppercase;
     color:;
-    margin-bottom: 1%;
+    margin-bottom: --;
     background-image:;
     border-radius:;
     background: lightblue;
+    
+    grid-area: c;
+    
+ 
     
 }
 
@@ -141,11 +200,12 @@ body {
 }
 
 .blog-post_img {
-    position: relative;
-    float: right;
-    max-width: 40%;
-    max-height: 100%;
+ 
+
+ 
     border: 1px solid red;
+    
+    grid-area: b;
     
 }
 

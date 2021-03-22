@@ -1,11 +1,9 @@
 * 
-
   {
   Margin: 0;
   Padding: 0;
   box-sizing: border-box;
   }
-
 
   html,
 body {
@@ -16,227 +14,114 @@ body {
     font-weight: -;
     text-rendering: optimizeLegibility;
     overflow-x: -;
+     
 }
 
-
-
-/*webpage*/
+a {
+    text-decoration:none; 
+}
 
 .container {
-    margin-left: 10%;
-    display: grid;
-    width: 80%;
+    margin-left: 20%;
+    width: 60%;
     height: 100vh;
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
-    grid-gap: 0px 0px;
-/*
-    grid-template-areas:
-    "top top top top top top top top"
-    "main main main main main main main main"
-    "ft ft ft ft ft ft ft ft"; 
-*/
-    border: 2px solid orange;
-    justify-content: -;
-    
-          }
-
-
-
-
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-area: 
+    "1"
+    "2"
+    "3";
+}
 
 .header {
-/*    grid-area: top;*/
-
-    background: lightblue;
-    max-height: 20%;
-    
-       display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: normal;
-  
-}
-
-.header p {
-
-
-    margin-left: 2%;
-    
-    font-size: 22px;
-    border: 1px dotted black;
-
-    
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-    
-   
-}
-
-.search-icon{
-
-    font-size: 22px;
-    margin-right: 4%;
-    border: 1px dotted black;
-    
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-}
-
-.header h2{
-
-   border: 1px dotted black;
-
-    
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-
-    display: block;
-    background: green;
-
-}
-
-.section {
-/*    grid-area: main;*/
-    display: block;
-    background: #fcfded;
+    grid-area: 1;
+    background-color: lightcoral;
     
     display: flex;
-
-    flex-direction:row;
-    flex-wrap:wrap; 
-    
-    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
-.parent {
-
+.h-box {
+    width: 33.3%;
+    border: 5px solid black;
 }
 
-
+.main {
+     grid-area: 2;
+     background-color: lightblue;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+}
 
 .blog-post {
-    max-width: 45%;
-    max-height: 30%;
+    width: 50%;
     border: 5px solid black;
-    margin: 2%;
-    border-radius: 1%;
-    position: relative;
+    padding: 5%;
     
-     display: grid;
+}
+
+.post-content{
+    
+    border: 3px dotted white;
+    
+    text-align:center;
+    
+
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
   grid-gap: 0px 0px;
   grid-template-areas:
-    "a b"
-    "c c";
+    "top top"
+    "middle middle"
+    "left right";
 }
-
-
-.blog-post_content {
-    grid-area: a;
-   
-}
-
-.blog-post_info {
     
 
+ 
+}
+
+.post-content h3 {
     
+    grid-area: top;
+    
+
+    border: 1px solid black;
+
 }
 
-.blog-post_head {
-    color: lightgreen;
-    margin-bottom: 5%;
+.post-content p {
+     
+    grid-area: middle;
+    border: 1px solid black;
+
 }
 
-.blog-post_title {
-    font-size: ;
-    text-transform: uppercase;
-    color: ;
+.date {
+    
+     grid-area: left;
+     border: 1px solid black;
+
+}
+
+.button {
     
   
-}
-
-.blog-post_date {
-    color: lightgrey;
-    font-size: 15px;
-    font-weight: 600;
-    
-    
-}
-
-.blog-post_text {
-    font-size: 18px;
-}
-
-.blog-post_link {
-    
-    padding: ;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color:;
-    margin-bottom: --;
-    background-image:;
-    border-radius:;
-    background: lightblue;
-    
-    grid-area: c;
-    
- 
-    
-}
-
-.blog-post_link:hover {
-  background-image:
-}
-
-.blog-post_img {
- 
-
- 
-    border: 1px solid red;
-    
-    grid-area: b;
-    
-}
-
-.blog-post_img img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    display: block;
-    border-radius: 1%;
-
-    flex-direction: 
+     grid-area: right;
+     border: 1px solid black;
 
 }
 
 .footer {
-/*    grid-area: ft;*/
-    display: block;
-    background: yellow;
+     grid-area: 3;
+     background-color: lightgreen;
 }
-
-
-.bo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-    padding: 15px;
-
-     }

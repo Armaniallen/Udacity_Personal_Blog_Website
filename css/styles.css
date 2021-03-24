@@ -15,7 +15,6 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: -;
     width: -;
-     
 }
 
 a {
@@ -25,7 +24,7 @@ a {
 .container {
     margin-left: -;
     max-width: -;
-    height: -;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
@@ -33,7 +32,6 @@ a {
     "1"
     "2"
     "3";
-  
 }
 
 
@@ -62,6 +60,9 @@ a {
     width: 40px;
 }
 
+.h-box h1 {
+   font-size: 60px;
+}
 /*------------------MAIN------------------------ */
 
 .main {
@@ -118,7 +119,7 @@ a {
     
     grid-area: top;
     border: 1px solid black;
-    font-size: 42px;
+    font-size: 60px;
     padding: 3%;
     text-transform: uppercase;
 }
@@ -130,7 +131,6 @@ a {
 }
 
 .date {
-    
      grid-area: left;
      border: 1px solid black;
      padding: 10%;
@@ -142,10 +142,8 @@ a {
      border: 1px solid black;
      padding: 10%;
      background-color: #2ecc71;
-    
      cursor: pointer;
 }
-
 
 .btn:hover {
     background-color: #27ae60;
@@ -161,4 +159,28 @@ a {
      align-content: center;
      padding: 10%;
 }
+
+
+/*------------------Media Queries------------------------ */
+
+@media screen and (max-width:480px) {
+ 
+
+}
+
+@media screen and (max-width:768px) {
+ 
+
+}
+
+@media screen and (max-width:1024px) {
+
+
+}
+@media screen and (max-width:1200px) {
+
+}
+
+
+
 

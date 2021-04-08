@@ -37,7 +37,7 @@ a {
 
 /*------------------HEADER------------------------ */
 
-.header {
+.navbar {
     grid-area: 1;
     background-color: #48dbfb;
     

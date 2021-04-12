@@ -2,47 +2,6 @@
 
 
 
-@media screen and (max-width:1200px) {
-    .h-box p {
-   
-    text-align: center;
-    margin-top: 30%;
-}
-
-.h-box img {
-    width: 80px;
-    margin-top: 20%;
-}
-
-.h-box h1 {
-   font-size: 50px;
-}
-
-}
-
-
-@media screen and (max-width:768px) {
-    .h-box h1 {
-        font-size: 40px;}
-}
-
-
-@media screen and (max-width:500px) {
- 
-        .h-box p {
-   
-    text-align: center;
-    margin-top: 20%;
-}
-
-    .h-box h1 {
-        font-size: 20px;}
-}
-
-.h-box img {
-    width: 40px;
-    margin-top: 10%;
-}
-
+@media screen and (max-width:1400px) { 
 
 }

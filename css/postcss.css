@@ -27,9 +27,9 @@ html, p {
 }
 
 .container {
-  height: 120vh;
-    width: 60%;
-    margin-left: 20%;
+  height: 200vh;
+    width: 80%;
+    margin-left: 10%;
     display: grid;
 /*
   grid-template-columns: 900px 100px;
@@ -74,16 +74,17 @@ html, p {
 }
 
 .content {
-    grid-area: 2/1/5/5;
+    grid-area: 2/1/6/5;
     background-color: #ff6b6b;
     padding: 3%;
 }
 
 .side {
-     grid-area: 2/5/5/7;
+     grid-area: 2/5/6/7;
      background-color: #770000;
      padding: 3%;
 }
+
 
 .home-link {
   background-color: #150dea;
@@ -93,6 +94,7 @@ html, p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 25px;
     
 }
 
@@ -108,7 +110,7 @@ html, p {
 }
 
 .footer {
-     grid-area: 5/1/5/7;
+     grid-area: 6/1/6/7;
 
      background-color: #48dbfb;
      text-align: center;
@@ -116,3 +118,17 @@ html, p {
      padding: 10%;
      background-color: #48dbfb;
 }
+
+
+
+/*------------------Media Queries------------------------ */
+
+@media screen and (max-width:1200px) {
+    
+    
+    
+    
+}
+
+@media screen and (max-width:768px)
+@media screen and (max-width:500px)

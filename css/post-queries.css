@@ -1,0 +1,60 @@
+/*------------------Media Queries------------------------ */
+
+@media screen and (max-width:1200px) { 
+    
+.h-box {
+    font-size: 30px;
+}
+
+
+
+.h-box h1 {
+   font-size: 40px;
+    position: relative;
+}
+
+.icon-search {
+    height: 80px;
+    width: 80px;
+    
+}
+
+
+    
+    
+}
+
+@media screen and (max-width:850px) { 
+
+    .h-box {
+    font-size: 25px;
+    }
+
+
+
+.h-box h1 {
+   font-size: 25px;
+    position: relative;
+}
+
+.icon-search {
+    height: 80px;
+    width: 80px;
+    
+}
+    
+    .sm-link {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 25px;
+  width: 50%;
+  margin: 5% 0%;
+}
+
+    
+}

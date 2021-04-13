@@ -91,7 +91,7 @@ a {
 .blog-content {
   
   text-align:center;
-  margin: 50% 0; /* top/bottom and left/right*/
+  margin: 30% 0; /* top/bottom and left/right*/
     
   
   display: grid;
@@ -102,7 +102,6 @@ a {
     "top top"
     "middle middle"
     "left right";
-    
     filter: grayscale(60%);
 }
 
@@ -151,6 +150,7 @@ a {
      padding: 10%;
      background-color: #2ecc71;
      cursor: pointer;
+     display: inline-block;
 }
 
 .btn:hover {

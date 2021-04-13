@@ -1,7 +1,61 @@
 /*------------------Media Queries------------------------ */
 
-
-
 @media screen and (max-width:1400px) { 
 
+.blog-post {
+    flex: 1 0 50%;
+    padding: 3%;
 }
+    
+.blog-content {
+  margin: 10% 0;
+  /* top/bottom and left/right*/
+  }
+
+
+  }
+
+  @media screen and (max-width:1050px) {
+
+      .h-box {
+          width: 33.3%;
+          border: 5px solid black;
+          text-align: center;
+          padding: 5%;
+          font-size: 30px;
+      }
+
+      .h-box h1 {
+          font-size: 40px;
+      }
+
+
+  }
+
+  @media screen and (max-width:650px) {
+
+      .h-box {
+          width: 33.3%;
+          border: 5px solid black;
+          text-align: center;
+          padding: 5%;
+          font-size: 20px;
+      }
+
+      .h-box h1 {
+          font-size: 25px;
+      }
+
+      .blog-post {
+          flex: 1 0 100%;
+          padding: 3%;
+      }
+
+      .blog-content {
+          margin: 5% 0;
+          /* top/bottom and left/right*/
+      }
+
+
+  }
+

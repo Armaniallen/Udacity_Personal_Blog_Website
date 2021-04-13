@@ -27,7 +27,7 @@ html, p {
 }
 
 .container {
-  height: 200vh;
+  height: 150vh;
     width: 80%;
     margin-left: 10%;
     display: grid;
@@ -42,6 +42,7 @@ html, p {
     border: 4px dotted grey;
 
           }
+/* -------------- header ---------------*/
 
 .header {
     grid-area: 1/1/1/7;
@@ -59,25 +60,34 @@ html, p {
     width: 33.3%;
     border: 5px solid black;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     position: relative;
+    font-size: 60px;
 }
 
-.h-box img {
-    width: 40px;
-    position: relative;
-}
+
 
 .h-box h1 {
-   font-size: 30px;
+   font-size: 60px;
     position: relative;
 }
+
+.icon-search {
+    height: 80px;
+    width: 80px;
+    
+}
+
+/* -------------- content ---------------*/
 
 .content {
     grid-area: 2/1/6/5;
     background-color: #ff6b6b;
     padding: 3%;
 }
+
+
+/* -------------- side ---------------*/
 
 .side {
      grid-area: 2/5/6/7;
@@ -98,16 +108,22 @@ html, p {
     
 }
 
-.sm-link {
-  background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 25px;
+.sm-list {
+    list-style-type: none;
 }
+
+.sm-link {
+  
+  
+  display: block;
+  width: 10%;
+  height: auto;
+  margin: 5% 0%;
+ 
+  
+}
+
+/* -------------- footer ---------------*/
 
 .footer {
      grid-area: 6/1/6/7;
@@ -117,18 +133,8 @@ html, p {
      align-content: center;
      padding: 10%;
      background-color: #48dbfb;
+     height: auto; /* takes up white space */
 }
 
 
 
-/*------------------Media Queries------------------------ */
-
-@media screen and (max-width:1200px) {
-    
-    
-    
-    
-}
-
-@media screen and (max-width:768px)
-@media screen and (max-width:500px)

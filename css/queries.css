@@ -57,5 +57,25 @@
       }
 
 
+  }  @media screen and (max-width:480px) {
+      
+            .h-box {
+        
+          font-size: 10px;
+      }
+
+              .h-box h1 {
+          font-size: 15px;
+      }
+      
+      .icon-search {
+          height: 30px;
+          width: 30px;
+}
+          .blog-post {
+          flex: 0 1 100%;
+          padding: 3%;
+      }
+
   }
 
